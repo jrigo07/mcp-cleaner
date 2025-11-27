@@ -1,0 +1,16 @@
+# --- SEGURIDAD: NUNCA SUBIR ESTO ---
+config/
+credentials.json
+token_combined.json
+client_secret*.json
+
+# --- Basura de Python ---
+__pycache__/
+*.pyc
+*.pyo
+venv/
+.env
+
+# --- Archivos de Sistema ---
+.DS_Store
+Thumbs.db

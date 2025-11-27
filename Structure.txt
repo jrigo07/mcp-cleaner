@@ -1,0 +1,16 @@
+mcp-cleaner/
+│
+├── config/                 # Carpeta de seguridad (Ignorada en Git)
+│   ├── credentials.json    # Credenciales de Google Cloud Console
+│   └── token_combined.json # La "llave maestra" generada automáticamente
+│
+├── server_mcp.py           # 🧠 EL CEREBRO: Recibe órdenes de Claude y coordina todo
+├── google_auth.py          # 🔐 SEGURIDAD: Maneja el login y refresco de tokens
+├── backup_manager.py       # 📦 EL MÚSCULO: Descarga y verifica (SHA256)
+├── storage_detector.py     # 💾 OJOS LOCALES: Busca discos duros/USB disponibles
+│
+├── drive_tool.py           # ☁️ Herramienta específica para Google Drive
+├── gmail_tool.py           # 📧 Herramienta específica para Gmail
+│
+├── setup_final.py          # ⚙️ Script de configuración inicial (se corre una vez)
+└── requirements.txt        # 📚 Librerías necesarias
